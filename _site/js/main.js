@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
-  if (window.location.pathname !== '/sumitsrivastava/' && window.location.pathname !== '/sumitsrivastava/index.html') {
+  if (window.location.pathname !== '/sumitsrivastav/' && window.location.pathname !== '/sumitsrivastav/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
