@@ -1,10 +1,12 @@
 
-
+<h6>hi i'm sumit srivastava</h6>
 
 
 
 <nav class="pagination" role="navigation">
-<h2>hi </h2>
+
+
+
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
