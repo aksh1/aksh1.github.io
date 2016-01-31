@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>How to install Ruby 2.0 on Ubuntu 14.04</title>
+  <meta name="description" content="Programmer & Web Developer">
+  <meta name="author" content="Sumit Srivastava">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sumit Srivastava">
+  <meta name="twitter:description" content="Programmer & Web Developer">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Sumit Srivastava">
+  <meta property="og:description" content="Programmer & Web Developer">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/sumitsrivastava/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/sumitsrivastava/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/sumitsrivastava/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/sumitsrivastava/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/sumitsrivastava/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/sumitsrivastava/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/sumitsrivastava/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sumitsrivastava/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/sumitsrivastava/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/sumitsrivastava/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/sumitsrivastava/images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/sumitsrivastava/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/sumitsrivastava/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/sumitsrivastava/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/sumitsrivastava/images/favicons/manifest.json">
+  <link rel="shortcut icon" href="/sumitsrivastava/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="/sumitsrivastava/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/sumitsrivastava/css/main.css">
+  <link rel="canonical" href="http://joshgerdes.com/jekyll-uno/sumitsrivastava//2016/myfirstblog/">
+  <link rel="alternate" type="application/rss+xml" title="Sumit Srivastava" href="/sumitsrivastava/feed.xml">
+</head>
+
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+  
+<header class="panel-cover" style="background-image: url(/sumitsrivastava/images/cover.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="/sumitsrivastava/" title="link to home of Sumit Srivastava">
+          <img src="/sumitsrivastava/images/sumit.jpeg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">Sumit Srivastava</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">Programmer & Web Developer</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/sumitsrivastava/#blog" title="link to Sumit Srivastava blog" class="blog-button">  Blog</a></li>
+<li class="navigation__item"><a href="cv.pdf" title="curriculum vitae" class="blog-button" target="_blank">Resume</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+          
+            
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/aksh_48" title="@aksh_48 on Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/sumitsrivastava1" title="sumitsrivastava1 on LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/aksh1" title="aksh1 on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:2013ecs48@smvdu.ac.in" title="Email 2013ecs48@smvdu.ac.in" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            
+
+            
+          
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay">
+
+
+
+</div>
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="31 Jan 2016" class="post-meta__date date">31 Jan 2016</time> &#8226; <span class="post-meta__tags">on <a href="/sumitsrivastava/tags/#ruby">ruby</a> </span>
+    </div>
+    <h1 class="post-title">How to install Ruby 2.0 on Ubuntu 14.04</h1>
+  </header>
+
+  <section class="post">
+    <p>Most of the <code>ruby</code> developer are using <code>Ubuntu</code> operatng Systems for web developing
+and they require ruby’s version greater than 2.0</p>
+
+<p>You can install it using one of the methods given below</p>
+
+<h2 id="using-rbnev">1. Using rbnev</h2>
+<p>Installing with rbenv is a simple two step process. First you install rbenv, and then ruby-build:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">cd</span>
+<span class="n">git</span> <span class="nb">clone</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">sstephenson</span><span class="o">/</span><span class="n">rbenv</span><span class="o">.</span><span class="n">git</span> <span class="o">.</span><span class="n">rbenv</span>
+<span class="n">echo</span> <span class="s1">&#39;export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~</span><span class="sr">/.bashrc</span>
+<span class="sr">echo &#39;eval &quot;$(rbenv init -)&quot;&#39; &gt;&gt; ~/</span><span class="o">.</span><span class="n">bashrc</span>
+<span class="nb">exec</span> <span class="vg">$SHELL</span>
+
+<span class="n">git</span> <span class="nb">clone</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">sstephenson</span><span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">build</span><span class="o">.</span><span class="n">git</span> <span class="o">~</span><span class="sr">/.rbenv/</span><span class="n">plugins</span><span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">build</span>
+<span class="n">echo</span> <span class="s1">&#39;export PATH=&quot;$HOME/.rbenv/plugins/ruby-build/bin:$PATH&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~</span><span class="sr">/.bashrc</span>
+<span class="sr">exec $SHELL</span>
+
+<span class="sr">git clone https:/</span><span class="o">/</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">sstephenson</span><span class="o">/</span><span class="n">rbenv</span><span class="o">-</span><span class="n">gem</span><span class="o">-</span><span class="n">rehash</span><span class="o">.</span><span class="n">git</span> <span class="o">~</span><span class="sr">/.rbenv/</span><span class="n">plugins</span><span class="o">/</span><span class="n">rbenv</span><span class="o">-</span><span class="n">gem</span><span class="o">-</span><span class="n">rehash</span>
+
+<span class="n">rbenv</span> <span class="n">install</span> <span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span>
+<span class="n">rbenv</span> <span class="n">global</span> <span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span>
+<span class="n">ruby</span> <span class="o">-</span><span class="n">v</span></code></pre></div>
+
+<p>Now we tell Rubygems not to install the documentation for each package locally and then install Bundler</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">echo</span> <span class="s2">&quot;gem: --no-ri --no-rdoc&quot;</span> <span class="o">&gt;</span> <span class="o">~</span><span class="sr">/.gemrc</span>
+<span class="sr">gem install bundler</span></code></pre></div>
+
+<h2 id="using-rvm">2. Using rvm</h2>
+
+<p>The installation for rvm is pretty simple:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">libgdbm</span><span class="o">-</span><span class="n">dev</span> <span class="n">libncurses5</span><span class="o">-</span><span class="n">dev</span> <span class="n">automake</span> <span class="n">libtool</span> <span class="n">bison</span> <span class="n">libffi</span><span class="o">-</span><span class="n">dev</span>
+<span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">get</span><span class="o">.</span><span class="n">rvm</span><span class="o">.</span><span class="n">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span>
+<span class="n">source</span> <span class="o">~</span><span class="sr">/.rvm/s</span><span class="n">cripts</span><span class="o">/</span><span class="n">rvm</span>
+<span class="n">rvm</span> <span class="n">install</span> <span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span>
+<span class="n">rvm</span> <span class="n">use</span> <span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span> <span class="o">--</span><span class="n">default</span>
+<span class="n">ruby</span> <span class="o">-</span><span class="n">v</span></code></pre></div>
+
+<p>Now we tell Rubygems not to install the documentation for each package locally and then install Bundler</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">echo</span> <span class="s2">&quot;gem: --no-ri --no-rdoc&quot;</span> <span class="o">&gt;</span> <span class="o">~</span><span class="sr">/.gemrc</span>
+<span class="sr">gem install bundler</span></code></pre></div>
+
+<h2 id="from-source">3. From Source</h2>
+
+<p>Arguably the least useful Ruby setup for development is installing from source, but I thought I’d give you the steps anyways:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">cd</span>
+<span class="n">wget</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">ftp</span><span class="o">.</span><span class="n">ruby</span><span class="o">-</span><span class="n">lang</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">pub</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="n">tar</span> <span class="o">-</span><span class="n">xzvf</span> <span class="n">ruby</span><span class="o">-</span><span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="n">cd</span> <span class="n">ruby</span><span class="o">-</span><span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">3</span><span class="o">/</span>
+<span class="o">.</span><span class="n">/configure</span>
+<span class="n">make</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+<span class="n">ruby</span> <span class="o">-</span><span class="n">v</span></code></pre></div>
+
+<p>Now we tell Rubygems not to install the documentation for each package locally and then install Bundler</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">echo</span> <span class="s2">&quot;gem: --no-ri --no-rdoc&quot;</span> <span class="o">&gt;</span> <span class="o">~</span><span class="sr">/.gemrc</span>
+<span class="sr">gem install bundler</span></code></pre></div>
+
+<p>I hope this post is helpful to you.</p>
+
+<p>Thanks for reading.</p>
+
+<h3 id="comments-">Comments !</h3>
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//sumitsrivastava.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script id="dsq-count-scr" src="//sumitsrivastava.disqus.com/count.js" async=""></script>
+
+
+  </section>
+</article>
+      </div>
+
+      <footer class="footer">
+  <!--<span class="footer__copyright"> 2016 Sumit Srivastava. </span> -->
+</footer> 
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="/sumitsrivastava/js/main.js"></script>
+
+
+    </div>
+  </body>
+</html>

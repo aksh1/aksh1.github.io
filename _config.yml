@@ -1,0 +1,28 @@
+# Site settings
+title: Sumit Srivastava
+description: 'Programmer & Web Developer'
+url: 'http://joshgerdes.com/jekyll-uno' 
+baseurl: '/sumitsrivastava/'
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'Sumit Srivastava'
+  email: 2013ecs48@smvdu.ac.in
+  twitter_username: aksh_48
+  github_username:  aksh1
+  linkedin_username:  sumitsrivastava1
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
