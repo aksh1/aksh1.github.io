@@ -3,10 +3,10 @@
   <channel>
     <title>Sumit Srivastava</title>
     <description>Programmer &amp; Web Developer</description>
-    <link>http://www.sumitsrivastav.com/sumitsrivastav//sumitsrivastav//</link>
-    <atom:link href="http://www.sumitsrivastav.com/sumitsrivastav//sumitsrivastav//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Feb 2016 13:48:59 +0530</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 13:48:59 +0530</lastBuildDate>
+    <link>http://www.sumitsrivastav.com/sumitsrivastav//</link>
+    <atom:link href="http://www.sumitsrivastav.com/sumitsrivastav//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 01 Feb 2016 17:42:43 +0530</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 17:42:43 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -108,8 +108,8 @@ s.setAttribute(&#39;data-timestamp&#39;, +new Date());
 
 </description>
         <pubDate>Sun, 31 Jan 2016 00:00:00 +0530</pubDate>
-        <link>http://www.sumitsrivastav.com/sumitsrivastav//sumitsrivastav//2016/myfirstblog/</link>
-        <guid isPermaLink="true">http://www.sumitsrivastav.com/sumitsrivastav//sumitsrivastav//2016/myfirstblog/</guid>
+        <link>http://www.sumitsrivastav.com/sumitsrivastav//2016/myfirstblog/</link>
+        <guid isPermaLink="true">http://www.sumitsrivastav.com/sumitsrivastav//2016/myfirstblog/</guid>
         
         <category>ruby</category>
         

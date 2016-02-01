@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://www.sumitsrivastav.com/sumitsrivastav//2016/myfirstblog/</loc>
+      <loc>http://www.sumitsrivastav.com/2016/myfirstblog/</loc>
       
         <lastmod>2016-01-31T00:00:00+05:30</lastmod>
       
@@ -19,24 +19,9 @@
   
     
     <url>
-      <loc>http://www.sumitsrivastav.com/sumitsrivastav//feed.xml</loc>
+      <loc>http://www.sumitsrivastav.com/feed.xml</loc>
       
-        <lastmod>2016-02-01T13:48:59+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.sumitsrivastav.com/sumitsrivastav//</loc>
-      
-        <lastmod>2016-02-01T13:48:59+05:30</lastmod>
+        <lastmod>2016-02-01T17:42:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -49,9 +34,24 @@
   
     
     <url>
-      <loc>http://www.sumitsrivastav.com/sumitsrivastav//js/main.js</loc>
+      <loc>http://www.sumitsrivastav.com/</loc>
       
-        <lastmod>2016-02-01T13:48:59+05:30</lastmod>
+        <lastmod>2016-02-01T17:42:43+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.sumitsrivastav.com/js/main.js</loc>
+      
+        <lastmod>2016-02-01T17:42:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,9 +66,9 @@
   
     
     <url>
-      <loc>http://www.sumitsrivastav.com/sumitsrivastav//tags/</loc>
+      <loc>http://www.sumitsrivastav.com/tags/</loc>
       
-        <lastmod>2016-02-01T13:48:59+05:30</lastmod>
+        <lastmod>2016-02-01T17:42:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
