@@ -5,9 +5,7 @@ date:   2016-01-31
 tag: ruby
 ---
 
-
-Most of the `ruby` developer are using `Ubuntu` operatng Systems for web developing
-and they require ruby's version greater than 2.0
+The `ruby`'s version `Ubuntu` provides is less than 2.0 and in most cases we require greater than 2.0 like if you want to use `jekyll` theme. So here are the three ways to install it on your Ubuntu 14.04. 
 
 You can install it using one of the methods given below
 
@@ -87,8 +85,17 @@ gem install bundler
 
 
 I hope this post is helpful to you.
-Tnanks for reading.
 
+Thanks for reading.
+
+
+
+<div id="share-buttons">
+    
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+</div>
 
 
 ### Comments ! 
@@ -120,6 +127,17 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 <script id="dsq-count-scr" src="//sumitsrivastava.disqus.com/count.js" async></script>
+<style type="text/css">
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+ 
+</style>
 
 
 

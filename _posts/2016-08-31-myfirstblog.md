@@ -5,9 +5,7 @@ date:   2016-01-31
 tag: ruby
 ---
 
-
-Most of the `ruby` developer are using `Ubuntu` operatng Systems for web developing
-and they require ruby's version greater than 2.0
+The `ruby`'s version `Ubuntu` provides is less than 2.0 and in most cases we require greater than 2.0 like if you want to use `jekyll` theme. So here are the three ways to install it on your Ubuntu 14.04. 
 
 You can install it using one of the methods given below
 
@@ -92,6 +90,7 @@ Thanks for reading.
 
 
 
+
 ### Comments ! 
 
 <div id="disqus_thread"></div>
@@ -121,6 +120,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 <script id="dsq-count-scr" src="//sumitsrivastava.disqus.com/count.js" async></script>
+
 
 
 

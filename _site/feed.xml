@@ -5,14 +5,13 @@
     <description>Programmer &amp; Web Developer</description>
     <link>http://www.sumitsrivastav.com//</link>
     <atom:link href="http://www.sumitsrivastav.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Feb 2016 17:46:05 +0530</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 17:46:05 +0530</lastBuildDate>
+    <pubDate>Tue, 02 Feb 2016 15:43:52 +0530</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2016 15:43:52 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>How to install Ruby 2.0 on Ubuntu 14.04</title>
-        <description>&lt;p&gt;Most of the &lt;code&gt;ruby&lt;/code&gt; developer are using &lt;code&gt;Ubuntu&lt;/code&gt; operatng Systems for web developing
-and they require ruby’s version greater than 2.0&lt;/p&gt;
+        <description>&lt;p&gt;The &lt;code&gt;ruby&lt;/code&gt;’s version &lt;code&gt;Ubuntu&lt;/code&gt; provides is less than 2.0 and in most cases we require greater than 2.0 like if you want to use &lt;code&gt;jekyll&lt;/code&gt; theme. So here are the three ways to install it on your Ubuntu 14.04.&lt;/p&gt;
 
 &lt;p&gt;You can install it using one of the methods given below&lt;/p&gt;
 
