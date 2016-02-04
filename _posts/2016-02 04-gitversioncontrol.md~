@@ -1,0 +1,117 @@
+---
+layout: post
+title:  "How to control different versions of any software in git ?"
+date:   2016-02-04 12:00:00
+categories: git
+tags: [github]
+---
+
+
+
+
+
+
+
+
+
+
+
+
+What is "version control" ?
+ Version control is a system that records changes to a file or set of files over time so that we can recall specific versions later.
+ For example the posts of this blog is version controlled by git ,if in future i want to revert the changes i made earlier can be done only because of the distributed version control system Git.
+
+
+Before we start furthur i assume that you are all have an account on Github and have git installed on your local machine.
+
+So lets start first you create a new repository(in this case my-repo) and add README.md file in it.
+
+And Follow following steps:
+
+1. Clone the repo to your local machine by using `git clone`  command.
+{% highlight ruby %}
+git clone https://github.com/aksh1/my-repo.git
+{% endhighlight %}
+
+After cloning a folder is created of name 'my-repo'.Here you can code or copy your precoded code.
+
+2. Add your  files in the repo.I here create a new python file hello.py 
+	{% highlight ruby %}
+	 $ sudo gedit hello.py
+{% endhighlight %}
+
+3. Check  the status of your repo by using 'git status' command.
+	{% highlight ruby %}
+	$ git staus
+{% endhighlight %}
+
+4. Now add the changes by using 'git add -A'  command.
+	{% highlight ruby %}
+	$ git add -A
+{% endhighlight %}
+
+5. Commit your changes 
+	{% highlight ruby %}
+
+   git commit -m "my first commit"
+{% endhighlight %}
+
+ '-m' is a delimeter used to give message
+
+
+vola! we are ready to set our first version of our repo this can be done by git tagging. 
+
+6. Tag your commit for version
+	{% highlight ruby %}
+    $ git tag -a v1.0 -m "version 1"
+{% endhighlight %}
+
+Now you have your first version of repository and you can check the number of versions you have by using 'git tag' command.
+
+
+7. Push your first version on your github account 
+	{% highlight ruby %}
+
+   $ git push origin master
+{% endhighlight %}
+
+
+Now develop a new version of this repo . Here i just add a new file abc.py and follow steps from 3 to 7.
+
+
+
+
+8. Add the changes
+ git add -A 
+9. check the status of your repository to confirm your addtion.
+  git status
+10. Commit the changes you made.
+  git commit -m "abc.py added
+
+
+ Suppose you want to declare this as your version v1.02.
+11. Declare your version v1.02.
+ git tag -a v1.02 -m "version2"
+
+
+12 . Again push your repository on github.
+   git push origin master.
+
+
+You can see the tag data along with the commit that was tagged by using the git show command
+   git show v1.0
+
+
+
+Now you have two version of your repository one of them is in your working directoy and one is in your .git repository(a git database you can say).
+
+suppose there is some bugs in your version2 and you want to put version1 of your repository in your working directory, you can create a new branch at a specific tag with git checkout -b [branchname] [tagname]:
+
+$ git checkout -b version2 v1.0
+Switched to a new branch 'version1'
+
+
+Of course if you do this and do a commit, your version2 branch will be slightly different than your v1.0 tag since it will move forward with your new changes, so do be careful.
+
+
+

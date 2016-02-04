@@ -89,6 +89,7 @@ I hope this post will helpful to you.
 Thanks for reading.
 
 
+
 <!--
 <div id="share-buttons">
     
@@ -100,7 +101,7 @@ Thanks for reading.
     </a>
  
    
-    <a href="http://www.facebook.com/sharer.php?u=https://{{url}}" target="_blank">
+    <a href="http://www.facebook.com/sharer.php?u=https://{{ site.baseurl }}{{ post.url | remove_first: '/' }}" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
     </a>
     
@@ -162,7 +163,6 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 <script id="dsq-count-scr" src="//sumitsrivastava.disqus.com/count.js" async></script>
-<!--
 <style type="text/css">
  
 #share-buttons img {
@@ -174,7 +174,6 @@ display: inline;
 }
  
 </style>
--->
 
 
 
