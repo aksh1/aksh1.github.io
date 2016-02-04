@@ -22,9 +22,9 @@
 }
 
 .tags a {
-  border: 1px solid #6666ff;
+  border: 1px solid #e25440;
   border-radius: 20px;
-  color: #6666ff;
+  color: #e25440;
   display: inline-block;
   font-size: 12px;
   margin: 5px 0;

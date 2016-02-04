@@ -930,16 +930,16 @@ body {
 	color: #666666; }
 
 ::selection {
-	background: #fae3df; }
+	background: #6666ff; }
 
 ::-moz-selection {
-	background: #fae3df; }
+	background: #6666ff; }
 
 a {
 	text-decoration: none;
-	color: #e25440; }
+	color:  #000066; }
 	a:hover {
-		color: #b9301c;
+		color: #6666ff;
 		-o-transition: .5s;
 		-ms-transition: .5s;
 		-moz-transition: .5s;
@@ -1045,7 +1045,7 @@ pre {
 .author,
 .tags {
 	font-size: .8em;
-	color: #c7c7c7; }
+	color: #6666ff; }
 	.date a,
 	.time a,
 	.author a,
@@ -1055,7 +1055,7 @@ pre {
 		.time a:hover,
 		.author a:hover,
 		.tags a:hover {
-			color: #b9301c; }
+			color: #6666ff; }
 
 .excerpt {
 	margin: 0;
@@ -1085,7 +1085,7 @@ pre {
 	position: relative;
 	display: inline-block;
 	padding: 8px 18px 9px 18px;
-	background: #e25440;
+	background: #6666ff;
 	border-radius: 3px;
 	text-align: center;
 	color: #FFF; }
@@ -1120,7 +1120,7 @@ pre {
 		color: #a6a6a6;
 		text-decoration: underline; }
 		.footer__copyright a:hover {
-			color: #b9301c; }
+			color: #6666ff; }
 
 .avatar,
 .logo {
@@ -1308,17 +1308,17 @@ hr {
 
 .btn, .navigation__item a {
 	padding: 10px 20px;
-	border: 1px solid #e25440;
+	border: 1px solid #6666ff;
 	border-radius: 20px;
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-shadow: none;
-	color: #e25440;
+	color: #6666ff;
 	-webkit-font-smoothing: antialiased; }
 	.btn:hover, .navigation__item a:hover {
-		color: #b9301c;
-		border-color: #b9301c; }
+		color: #6666ff;
+		border-color: #6666ff; }
 
 .btn-secondary {
 	border-color: #5ba4e5;
@@ -1441,9 +1441,9 @@ i {
 	font-size: 1.5em;
 	line-height: 1.3em; }
 	.post-list__post-title a {
-		color: #333333; }
+		color: #6666ff; }
 		.post-list__post-title a:hover {
-			color: #b9301c; }
+			color: #000066; }
 
 .post-list__meta {
 	display: block;
@@ -1453,15 +1453,16 @@ i {
 
 .post-list__meta--date {
 	margin-right: .5em;
-	color: #c7c7c7; }
+	color: #6666ff; }
 
 .post-list__meta--tags {
-	margin-left: .5em; }
+	margin-left: .5em;
+	 }
 
 .post-list__divider {
-	width: 30%;
-	margin: 2.2em 0 2.1em 0;
-	border-top: 1px solid #dddddd; }
+	width: 50%;
+	margin: 0.8em 0 0.8em 0;
+	border-top: 1px solid #6666ff; }
 
 *:focus {
 	outline: none; }
@@ -1680,3 +1681,11 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+
+
+
+#head{
+color: #6666ff;
+font-weight: 700;
+
+}
