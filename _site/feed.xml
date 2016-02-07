@@ -5,8 +5,8 @@
     <description>Programmer &amp; Web Developer</description>
     <link>http://www.sumitsrivastav.com//</link>
     <atom:link href="http://www.sumitsrivastav.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Feb 2016 01:44:57 +0530</pubDate>
-    <lastBuildDate>Fri, 05 Feb 2016 01:44:57 +0530</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2016 18:47:12 +0530</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2016 18:47:12 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -141,34 +141,6 @@ And Follow following steps:&lt;/p&gt;
 
 &lt;p&gt;I think now you understand the handling of versions by git and if you need any help or any doubt feel free to comment in comment box.&lt;/p&gt;
 
-&lt;h3 id=&quot;comments-&quot;&gt;Comments !&lt;/h3&gt;
-
-&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-/**
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
-};
-*/
-(function() { // DON&#39;T EDIT BELOW THIS LINE
-var d = document, s = d.createElement(&#39;script&#39;);
-
-s.src = &#39;//sumitsrivastava.disqus.com/embed.js&#39;;
-
-s.setAttribute(&#39;data-timestamp&#39;, +new Date());
-(d.head || d.body).appendChild(s);
-})();
-&lt;/script&gt;
-
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-
-&lt;script id=&quot;dsq-count-scr&quot; src=&quot;//sumitsrivastava.disqus.com/count.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
-
 </description>
         <pubDate>Thu, 04 Feb 2016 17:30:00 +0530</pubDate>
         <link>http://www.sumitsrivastav.com//2016/gitversioncontrol/</link>
@@ -248,88 +220,6 @@ s.setAttribute(&#39;data-timestamp&#39;, +new Date());
 &lt;p&gt;I hope this post will helpful to you.&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading.&lt;/p&gt;
-
-&lt;!--
-&lt;div id=&quot;share-buttons&quot;&gt;
-    
-   
-    
-    
-    &lt;a href=&quot;mailto:?Subject=Simple Share Buttons&amp;amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com&quot;&gt;
-        &lt;img src=&quot;https://simplesharebuttons.com/images/somacro/email.png&quot; alt=&quot;Email&quot; /&gt;
-    &lt;/a&gt;
- 
-   
-    &lt;a href=&quot;http://www.facebook.com/sharer.php?u=https:///&quot; target=&quot;_blank&quot;&gt;
-        &lt;img src=&quot;https://simplesharebuttons.com/images/somacro/facebook.png&quot; alt=&quot;Facebook&quot; /&gt;
-    &lt;/a&gt;
-    
-    
-    &lt;a href=&quot;https://plus.google.com/share?url=https://simplesharebuttons.com&quot; target=&quot;_blank&quot;&gt;
-        &lt;img src=&quot;https://simplesharebuttons.com/images/somacro/google.png&quot; alt=&quot;Google&quot; /&gt;
-    &lt;/a&gt;
-    
-    
-    &lt;a href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://simplesharebuttons.com&quot; target=&quot;_blank&quot;&gt;
-        &lt;img src=&quot;https://simplesharebuttons.com/images/somacro/linkedin.png&quot; alt=&quot;LinkedIn&quot; /&gt;
-    &lt;/a&gt;
-    
-    
-    
-    
-    &lt;a href=&quot;javascript:;&quot; onclick=&quot;window.print()&quot;&gt;
-        &lt;img src=&quot;https://simplesharebuttons.com/images/somacro/print.png&quot; alt=&quot;Print&quot; /&gt;
-    &lt;/a&gt;
-    
-
-     
-   
-    &lt;a href=&quot;https://twitter.com/share?url=https://simplesharebuttons.com&amp;amp;text=Simple%20Share%20Buttons&amp;amp;hashtags=simplesharebuttons&quot; target=&quot;_blank&quot;&gt;
-        &lt;img src=&quot;https://simplesharebuttons.com/images/somacro/twitter.png&quot; alt=&quot;Twitter&quot; /&gt;
-    &lt;/a&gt;
-    
-
-&lt;/div&gt; --&gt;
-
-&lt;h3 id=&quot;comments-&quot;&gt;Comments !&lt;/h3&gt;
-
-&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-/**
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
-};
-*/
-(function() { // DON&#39;T EDIT BELOW THIS LINE
-var d = document, s = d.createElement(&#39;script&#39;);
-
-s.src = &#39;//sumitsrivastava.disqus.com/embed.js&#39;;
-
-s.setAttribute(&#39;data-timestamp&#39;, +new Date());
-(d.head || d.body).appendChild(s);
-})();
-&lt;/script&gt;
-
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-
-&lt;script id=&quot;dsq-count-scr&quot; src=&quot;//sumitsrivastava.disqus.com/count.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
-
-&lt;style type=&quot;text/css&quot;&gt;
- 
-#share-buttons img {
-width: 35px;
-padding: 5px;
-border: 0;
-box-shadow: 0;
-display: inline;
-}
- 
-&lt;/style&gt;
 
 </description>
         <pubDate>Sun, 31 Jan 2016 00:00:00 +0530</pubDate>
