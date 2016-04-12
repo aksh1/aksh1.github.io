@@ -2,7 +2,7 @@
 title: Sumit Srivastava
 description: 'Programmer & Web Developer'
 url: 'http://www.sumitsrivastav.com' 
-baseurl: '/sumitsrivastav/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 
 author:
@@ -27,7 +27,7 @@ kramdown:
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
 gems:
-- jekyll-mentions
+
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap

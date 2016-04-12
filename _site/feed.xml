@@ -5,9 +5,137 @@
     <description>Programmer &amp; Web Developer</description>
     <link>http://www.sumitsrivastav.com//</link>
     <atom:link href="http://www.sumitsrivastav.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Feb 2016 18:56:19 +0530</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2016 18:56:19 +0530</lastBuildDate>
+    <pubDate>Wed, 13 Apr 2016 02:48:53 +0530</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2016 02:48:53 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Why we use Boilerplate over Bootstrap ?</title>
+        <description>&lt;p&gt;Well beginning a new project always have some repititive work because most of our project require same basic code and principles.Boilerplate and Bootstrap are both extremely valuable tools when we need a starting foundation for our new projects. But the question is: which one to choose and which one is better for me and my project?&lt;/p&gt;
+
+&lt;p&gt;Recently i started learning python with Django framework and i learnt about Boilerplate.Some people confused between Boilerplate and Bootstrap so I’ll try to make things clear hope you will understand . Well yeah I know that I am a bad explainer :P .&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-boilerplate&quot;&gt;1. What is Boilerplate&lt;/h2&gt;
+
+&lt;p&gt;Boilerplate is a front-end kickstart template that  offers generic files/folders structure, HTML5-ready template and basic server-side global configurations. It’s like blueprint for your house, but without the building blocks. You are free to include “the missing” HTML/CSS/JavaScript components from anywhere else, including from Bootstrap.&lt;/p&gt;
+
+&lt;p&gt;Well it seems quite simple template but it provide some cool benefits .Lets checkout some of those.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;HTML5-ready template plus basic structure for your files and folders&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ready-to-use, performance optimized print styles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cross-browser compatibility&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mobile browser optimizations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Progressive enhancement and graceful degradation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Best-practice server configurations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Optimal caching and compression rules&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Optimized Google Analytics snippet code&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can download it from here &lt;a href=&quot;https://html5boilerplate.com/&quot;&gt;Boilerplate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So when you download it here are some default files which will be helpful in developing of our projects&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;css&lt;/strong&gt; – a directory containing normalize.css, and main.css with Boilerplate’s defaults, common helpers, media queries, and print styles.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;doc&lt;/strong&gt; – a directory containing all Boilerplate’s documentation. You can use it as the location for your own project’s documentation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;img&lt;/strong&gt; – an empty folder for your images&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;js&lt;/strong&gt; – a directory containing main.js for your custom code and plugins.js containing the code for all your plugins. Also there are Modernizr and jQuery libraries placed in vendor subfolder.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;.htaccess&lt;/strong&gt; – default web server configurations for Apache. For other servers there is Server Configs repository.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;404.html&lt;/strong&gt; – a very basic error page
+apple touch icons&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;crossdomain.xml&lt;/strong&gt; – a template for working with cross-domain requests.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;favicon.ico&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;humans.txt&lt;/strong&gt; – a file to include credits for you and your project.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;index.html&lt;/strong&gt; – default HTML5-ready template, the base of all pages on your web site.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;robots.txt&lt;/strong&gt; – a file to include any pages you want to be hidden from search engines.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So all you have to do is to add your code and develop your website.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-is-bootstrap-&quot;&gt;2. What is Bootstrap ?&lt;/h2&gt;
+
+&lt;p&gt;Bootstrap is a front-end framework and web design kit for building modern web sites. With Bootstrap you can build an entire web site from scratch. So it gives you not only a starting point, but also all the building blocks you may need to create your site. The Bootstrap’s download contains only files for CSS and JS components, plus an icon font. Eventually you can download also a basic template to get started with. There is no files/folders structure or any server-side configurations.&lt;/p&gt;
+
+&lt;p&gt;You can download it from here &lt;a href=&quot;http://getbootstrap.com/getting-started/&quot;&gt;Bootstrap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Benefits/Highlights&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mobile-first approach&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Browser compatibility&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Accessibility&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CSS grid system&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ready-to-use components and utilities&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;and more…&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Components and utilities are listed below&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Grid&lt;/strong&gt; – a utility for laying out your design&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Icons&lt;/strong&gt; – resolution independent icon set&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CSS components&lt;/strong&gt; – styled HTML components&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JS widgets&lt;/strong&gt; – a nice set of interactive components&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Starting templates and examples&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CSS base styling classes&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As you can see Bootstrap provides all the components you can start using right now to build your web site.&lt;/p&gt;
+
+&lt;p&gt;I hope you understand the difference and thanks for reading.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 08 Mar 2016 00:00:00 +0530</pubDate>
+        <link>http://www.sumitsrivastav.com//2016/boilerplate/</link>
+        <guid isPermaLink="true">http://www.sumitsrivastav.com//2016/boilerplate/</guid>
+        
+        <category>Boilerplate , Bootstrap</category>
+        
+        
+      </item>
     
       <item>
         <title>How to control different version of any software in git?</title>
