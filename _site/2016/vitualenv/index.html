@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Sumit Srivastava</title>
+  <title>What is virtualenv?</title>
   <meta name="description" content="Programmer & Web Developer">
   <meta name="author" content="Sumit Srivastava">
   <meta name="HandheldFriendly" content="True">
@@ -43,7 +43,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sumitsrivastav.com//">
+  <link rel="canonical" href="http://www.sumitsrivastav.com//2016/vitualenv/">
   <link rel="alternate" type="application/rss+xml" title="Sumit Srivastava" href="/feed.xml">
 </head>
 
@@ -141,60 +141,162 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <b><h2 id="head">Hi! I'm Sumit Srivastava</h2><br></b>
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="4 Apr 2016" class="post-meta__date date">4 Apr 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#virtualenv">virtualenv</a> </span>
+    </div>
+    <h1 class="post-title">What is virtualenv?</h1>
+  </header>
 
-<h4 id="head">Latest Posts</h4>
- <hr class="post-list__divider ">
+  <section class="post">
+    <p>While developing apps in django we using a tool called virtualenv , most of us wondering that what is it and what it do . 
+So as the name suggest it allows to create some virtual environments. Each can have a different version of Python, and a different sets of libraries.</p>
 
-<div class="main-post-list">
+<p>I am learning this Django framework and virtualenv helps me in various ways in developing apps under django framework.</p>
 
-  <ol class="post-list">
-    
+<h3 id="why-do-we-need-virtualenv-">Why do we need virtualenv ?</h3>
+
+<p>Normally you can create and use Python programs without that, but using virtualenv can help a lot.</p>
+
+<p>Such virtual environment provides many possibilities such as:</p>
+
+<ol>
+  <li>
+    <p>On production servers it allows to run applications created for different Python versions.</p>
+  </li>
+  <li>
+    <p>On testing servers it allows to perform many tests including:</p>
+
+    <ul>
       <li>
-        <h2 class="post-list__post-title post-title" ><a href="/2016/vitualenv/" title="What is virtualenv?">What is virtualenv?</a></h2>
-        <p class="excerpt">While developing apps in django we using a tool called virtualenv , most of us wondering that what is it and what it do . 
-So as the name suggest it allows to create some virtual environments. Each can have a different version of Python, and a different sets of libraries.
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="4 Apr 2016" class="post-list__meta--date date">4 Apr 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#virtualenv">virtualenv</a> </span></div>
-        <hr class="post-list__divider">
+        <p>Testing the installer script if that really installs all necessary libraries with checking their versions.</p>
       </li>
-    
       <li>
-        <h2 class="post-list__post-title post-title" ><a href="/2016/boilerplate/" title="Why we use Boilerplate over Bootstrap ?">Why we use Boilerplate over Bootstrap ?</a></h2>
-        <p class="excerpt">Well beginning a new project always have some repititive work because most of our project require same basic code and principles.Boilerplate and Bootstrap are both extremely valuable tools when we need a starting foundation for our new projects. But the question is: which one to choose and which one is better for me and my project?
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="8 Mar 2016" class="post-list__meta--date date">8 Mar 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#Boilerplate , Bootstrap">Boilerplate , Bootstrap</a> </span></div>
-        <hr class="post-list__divider">
+        <p>Testing applications using different set of libraries.</p>
       </li>
-    
       <li>
-        <h2 class="post-list__post-title post-title" ><a href="/2016/gitversioncontrol/" title="How to control different version of any software in git?">How to control different version of any software in git?</a></h2>
-        <p class="excerpt">What is “version control” ?
- Version control is a system that records changes to a file or set of files over time so that we can recall specific versions later.
- For example the posts of this blog is version controlled by git ,if in future i want to revert the changes i made earlier can be done only because of the distributed version control system Git.
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="4 Feb 2016" class="post-list__meta--date date">4 Feb 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#github">github</a> </span></div>
-        <hr class="post-list__divider">
+        <p>Checking if upgrade of a library won’t cause errors.</p>
       </li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="installation">Installation</h3>
+
+<p>There are a number of ways to install virtualenv on your system.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">python</span><span class="o">-</span><span class="n">virtualenv</span>
+
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">easy_install</span> <span class="n">virtualenv</span>
+
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">virtualenv</span></code></pre></div>
+
+<h3 id="what-did-virtualenv-do">What did Virtualenv do?</h3>
+
+<ul>
+  <li>
+    <p>Packages installed here will not affect the global Python installation.</p>
+  </li>
+  <li>
+    <p>Virtualenv does not create every file needed to get a whole new python environment</p>
+  </li>
+  <li>
+    <p>It uses links to global environment files instead in order to save disk space end
+speed up your virtualenv.</p>
+  </li>
+  <li>
+    <p>Therefore, there must already have an active python environment installed on your
+system.</p>
+  </li>
+</ul>
+
+
+  </section>
+</article>
+
+<hr class="post-list__divider">
+<h4><u>Share this post</u> </h4>
+
+
+
+
+<div id="share-buttons">
     
-      <li>
-        <h2 class="post-list__post-title post-title" ><a href="/2016/myfirstblog/" title="How to install Ruby 2.0 on Ubuntu 14.04">How to install Ruby 2.0 on Ubuntu 14.04</a></h2>
-        <p class="excerpt">The <code>ruby</code>’s version <code>Ubuntu</code> provides is less than 2.0 and in most cases we require greater than 2.0 like if you want to use <code>jekyll</code> theme. So here are the three ways to install it on your Ubuntu 14.04.
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="31 Jan 2016" class="post-list__meta--date date">31 Jan 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#ruby">ruby</a> </span></div>
-        <hr class="post-list__divider">
-      </li>
+     <a href="https://facebook.com/sharer.php?u=http://www.sumitsrivastav.com/2016/vitualenv/&amp;title=What is virtualenv?" rel="nofollow" target="_blank" title="Share on Facebook">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
     
-  </ol>
+    
+    <a href="https://plus.google.com/share?url=http://www.sumitsrivastav.com/2016/vitualenv/" rel="nofollow" target="_blank" title="Share on Google+">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+    
+    
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.sumitsrivastav.com/2016/vitualenv/&amp;title=What is virtualenv?" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+    
+    
+    
+    
+    <a href="javascript:;" onclick="window.print()">
+        <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+    </a>
+    
 
-  
-  
+     
+   
+    <a href="https://twitter.com/intent/tweet?text=What is virtualenv?&url=http://www.sumitsrivastav.com/2016/vitualenv/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+    
 
-</div>
+</div> 
+
+<hr class="post-list__divider">
+
+<h4><u>Comments ! </u></h4>
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//sumitsrivastava.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+<script id="dsq-count-scr" src="//sumitsrivastava.disqus.com/count.js" async></script>
+<style type="text/css">
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+ 
+</style>
+
 
       </div>
 

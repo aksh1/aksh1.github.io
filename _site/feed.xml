@@ -5,9 +5,82 @@
     <description>Programmer &amp; Web Developer</description>
     <link>http://www.sumitsrivastav.com//</link>
     <atom:link href="http://www.sumitsrivastav.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Apr 2016 02:48:53 +0530</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 02:48:53 +0530</lastBuildDate>
+    <pubDate>Wed, 13 Apr 2016 03:30:43 +0530</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2016 03:30:43 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>What is virtualenv?</title>
+        <description>&lt;p&gt;While developing apps in django we using a tool called virtualenv , most of us wondering that what is it and what it do . 
+So as the name suggest it allows to create some virtual environments. Each can have a different version of Python, and a different sets of libraries.&lt;/p&gt;
+
+&lt;p&gt;I am learning this Django framework and virtualenv helps me in various ways in developing apps under django framework.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-do-we-need-virtualenv-&quot;&gt;Why do we need virtualenv ?&lt;/h3&gt;
+
+&lt;p&gt;Normally you can create and use Python programs without that, but using virtualenv can help a lot.&lt;/p&gt;
+
+&lt;p&gt;Such virtual environment provides many possibilities such as:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;On production servers it allows to run applications created for different Python versions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On testing servers it allows to perform many tests including:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Testing the installer script if that really installs all necessary libraries with checking their versions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Testing applications using different set of libraries.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Checking if upgrade of a library won’t cause errors.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;There are a number of ways to install virtualenv on your system.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;virtualenv&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;easy_install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;virtualenv&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;virtualenv&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;what-did-virtualenv-do&quot;&gt;What did Virtualenv do?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Packages installed here will not affect the global Python installation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Virtualenv does not create every file needed to get a whole new python environment&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It uses links to global environment files instead in order to save disk space end
+speed up your virtualenv.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Therefore, there must already have an active python environment installed on your
+system.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 04 Apr 2016 00:00:00 +0530</pubDate>
+        <link>http://www.sumitsrivastav.com//2016/vitualenv/</link>
+        <guid isPermaLink="true">http://www.sumitsrivastav.com//2016/vitualenv/</guid>
+        
+        <category>virtualenv</category>
+        
+        
+      </item>
     
       <item>
         <title>Why we use Boilerplate over Bootstrap ?</title>

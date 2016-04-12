@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://www.sumitsrivastav.com/2016/vitualenv/</loc>
+      
+        <lastmod>2016-04-04T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://www.sumitsrivastav.com/2016/boilerplate/</loc>
       
         <lastmod>2016-03-08T00:00:00+05:30</lastmod>
@@ -51,7 +66,7 @@
     <url>
       <loc>http://www.sumitsrivastav.com/feed.xml</loc>
       
-        <lastmod>2016-04-13T02:48:53+05:30</lastmod>
+        <lastmod>2016-04-13T03:30:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +81,7 @@
     <url>
       <loc>http://www.sumitsrivastav.com/</loc>
       
-        <lastmod>2016-04-13T02:48:53+05:30</lastmod>
+        <lastmod>2016-04-13T03:30:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +96,7 @@
     <url>
       <loc>http://www.sumitsrivastav.com/js/main.js</loc>
       
-        <lastmod>2016-04-13T02:48:53+05:30</lastmod>
+        <lastmod>2016-04-13T03:30:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +113,7 @@
     <url>
       <loc>http://www.sumitsrivastav.com/tags/</loc>
       
-        <lastmod>2016-04-13T02:48:53+05:30</lastmod>
+        <lastmod>2016-04-13T03:30:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
